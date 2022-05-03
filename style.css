@@ -1,0 +1,21 @@
+h3{
+    font-size: 27px !important;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name:color_changer;
+    animation-duration: 4s;
+    animation-iteration-count: 123456789098765432345678;
+
+}
+@keyframes color_changer {
+    from,to{box-shadow:5px 5px 100px red;}
+    10%{box-shadow:5px 5px 100px orange;}
+    20%{box-shadow:5px 5px 100px yellow;}
+    30%{box-shadow:5px 5px 100px green;}
+    40%{box-shadow:5px 5px 100px blue;}
+    50%{box-shadow:5px 5px 100px purple;}
+    60%{box-shadow:5px 5px 100px pink;}
+}
